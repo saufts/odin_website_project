@@ -12,13 +12,15 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
+
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 100px;
-    padding: 12px;
+    font-weight: 600;
+    margin-top: 12px;
 }
 
 ul {
@@ -40,4 +42,41 @@ ul {
 
 li {
     gap: 12px;
+}
+
+.header-bottom {
+    margin-left: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.header-text-button {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    width: 300px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 300px;
+}
+
+.sign-up {
+    width: 100px;
+}
+
+.header-image-placeholder {
+    height: 250px;
+    width: 250px;
+    background-color: grey;
 }
