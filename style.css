@@ -79,6 +79,8 @@ button {
     border-radius: 8px;
     background-color: #439cef;
     border: none;
+    color: #E5E7EB;
+    font-weight: 600;
     
 }
 
@@ -132,8 +134,58 @@ button {
 
 .quote-container {
     background-color: #E5E7EB;
-    height: 400px;
+    padding: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+
+}
+.quote {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
     color: #1F2937;
+    min-width: 300px;
+
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: right;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 8px;
+    height: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: #439cef;
+}
+
+.cta-header {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.cta-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-left: 70px;
+}
+
+.cta-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #439cef;
+    border: 3px solid white;
+    color: #E5E7EB;
+    font-weight: 600;
 }
