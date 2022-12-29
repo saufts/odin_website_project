@@ -14,6 +14,13 @@ body {
     justify-content: space-between;
 }
 
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 100px;
+    padding: 12px;
+}
+
 ul {
     display: flex;
 }
@@ -25,4 +32,12 @@ a {
 
 ul {
     list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 18px;
+    margin-right: 100px;
+}
+
+li {
+    gap: 12px;
 }
