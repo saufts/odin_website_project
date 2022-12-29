@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin-left: 150px;
     margin-right: 150px;
+    min-width: 800px;
 }
 
 .header-container {
@@ -89,6 +90,7 @@ button {
 .header-image-placeholder {
 
     display: flex;
+    min-width: 300 px;
     flex: 1;
     justify-content: center;
     align-items: center;
