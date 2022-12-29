@@ -46,29 +46,26 @@ li {
 
 .header-bottom {
     margin-left: 100px;
-    width: 400px;
     display: flex;
-    justify-content: space-between;
     margin-top: 100px;
+    justify-content: space-between;
 }
 
 .header-text-button {
     display: flex;
     flex-direction: column;
-    
+    width: 300px;    
 }
 
 .hero-text {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    width: 300px;
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
-    width: 300px;
 }
 
 .sign-up {
@@ -76,7 +73,14 @@ li {
 }
 
 .header-image-placeholder {
-    height: 250px;
-    width: 250px;
+
+    height: 150px;
+    width: 350px;
     background-color: grey;
+    margin-right: 100px;
+}
+
+.information-container {
+    background-color: blue;
+    height: 500px;
 }
